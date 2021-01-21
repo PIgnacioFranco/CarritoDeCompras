@@ -1,2 +1,2 @@
 # carritoCompra
-Carrito de compras para TP M2 U2
+Carrito de compras del Trabajo Practico del Modulo 2 Unidad 2
