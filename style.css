@@ -1,0 +1,29 @@
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: center;
+    background-color: #ffffcc;
+    justify-content: space-around;
+}
+table {
+    border-collapse: collapse;
+}
+th, tr, td {
+    border: 1px solid;
+}
+th {
+    background-color: DarkOrange;
+    width: 10em;
+    font-size: 18px;
+}
+.listacarrito {
+    display: flex;
+    flex-direction: row;
+}
+/* .listacarrito:first-child{
+    flex-direction: column;
+} */
+#bcomprar {
+    padding: 2.5em;
+}

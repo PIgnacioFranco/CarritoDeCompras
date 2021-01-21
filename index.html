@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="X-UA-Compatible" content="ie-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Trabajo Practico U2 M2</title>
+    </head>
+    <body onload="cargaInicial ()">
+    <main>
+        <!-- Separo en dos partes con las cabeceras de las tablas -->
+        <div class="listaproductos">
+            <h1>Lista de productos</h1>
+            <table id="tabla">
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th><img src="icarrito.svg" alt="carrito"></th>
+                    <th><img src="icancel.svg" alt=""></th>
+                </tr>
+            </table>
+
+        </div>
+        <div class="listacarrito">
+            <table id="tablacarrito">
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                </tr>
+            </table>
+            <div class="boton">
+                <button onclick="comprar ()" name="button" id="bcomprar">Comprar</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </main>
+    </body>
+</html>
