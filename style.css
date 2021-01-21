@@ -21,9 +21,6 @@ th {
     display: flex;
     flex-direction: row;
 }
-/* .listacarrito:first-child{
-    flex-direction: column;
-} */
 #bcomprar {
     padding: 2.5em;
 }
